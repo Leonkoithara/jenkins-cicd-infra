@@ -1,0 +1,4 @@
+bucket     = "terraform-states"
+key        = "jenkins-cicd-aws/terraform.tfstate"
+kms_key_id = "alias/terraform-states-key"
+region     = "us-east-1"
